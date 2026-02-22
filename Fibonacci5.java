@@ -6,10 +6,13 @@ class Fibonacci5
 		Scanner sc= new Scanner(System.in);
 		System.out.print("enter the no: ");
 		int no=sc.nextInt();
-		int temp=no,rev=0;
-		while(temp!=0){
+		//int temp=no,rev=0;
+		/*while(temp!=0){
 			rev=rev*10+temp%10;
 			temp/=10;
+		}*/
+		for(int temp=no;temp!=0;temp/=10){
+			int rev=rev*10+temp%10;
 		}
 		if(rev==no){
 			int n1=0,n2=1,ans;
