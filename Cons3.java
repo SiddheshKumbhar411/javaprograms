@@ -9,10 +9,12 @@ class Cons3
 	}
 	Cons3()
 	{
-		System.out.println("this is constructor");
+		System.out.println("this is constructor"+this);
 	}
 	Cons3(int a)
 	{	this();
-		System.out.println("this is constructor 2 "+a);
+		System.out.println("this is constructor 2 "+a );
 	}
+
+	
 }
