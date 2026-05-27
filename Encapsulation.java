@@ -1,39 +1,23 @@
-class Person
-{
-	private String name;
-	private int age;
-	
-	public String getName()
-	{
-		return name;
-	}
-	public int getAge()
-	{
-		return age;
-	}
-	public void setName(String name)
-	{
-		this.name=name;
-	}
-	public void setAge(int age)
-	{
-		this.age=age;
-	}
-}
-
-
-
-
-
 class Encapsulation 
 {
+	
 	public static void main(String[] args) 
+	{	
+		demo ref=new demo();
+		ref.setValue(5);
+		System.out.println(ref.getValue());
+	}
+	
+}
+class demo
+{
+	private int a;
+	void setValue(int a)
 	{
-		Person a=new Person();
-		a.setName("sid");
-		a.setAge(10);
-		System.out.println(a.getName());
-		System.out.println(a.getAge());
-		
+		this.a=a;
+	}
+	int getValue()
+	{
+		return a;
 	}
 }
