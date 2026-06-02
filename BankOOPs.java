@@ -1,6 +1,6 @@
 class BankOOPs 
 {
-	static String ifsc;
+	static String IFSC;
 	static String countryCode;
 	static{
 		//	System.out.println("Hello welcome to Canterburry branch");
@@ -28,7 +28,7 @@ class BankOOPs
         System.out.println(" ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ");
 
 
-		ifsc="A101";
+		IFSC="A101";
 		countryCode="IND";
 	}
 	int accno;
@@ -51,7 +51,7 @@ class BankOOPs
 	void AccDetail()
 	{
 		System.out.println("\n[ Account Details ]");
-        System.out.println("Bank     : " +ifsc);
+        System.out.println("Bank     : " +IFSC);
         System.out.println("Customer : " + customerName);
         System.out.println("Acc No   : " + countryCode+this);
         System.out.println("countrycode: " + countryCode);
